@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 if __name__ == '__main__':
     setup(
         name='gaze_tech',
-        version='0.1.0',
+        version='0.1.1',
         description='GazeTech by Yunhan Wang et. al.',
         long_description='This repo is a fork from https://github.com/yunhanwang1105/GazeTech',
         # long_description_content_type='text/markdown',
