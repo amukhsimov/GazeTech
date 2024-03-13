@@ -12,7 +12,7 @@ if __name__ == '__main__':
         author_email='aka.mukhsimov@gmail.com',
         keywords='computer vision, object detection, eye tracking',
         url='https://github.com/amukhsimov/GazeTech',
-        packages=['eth_xgaze'],
+        packages=['eth_xgaze', 'eth_xgaze.models'],
         include_package_data=True,
         classifiers=[
             'Development Status :: 5 - Production/Stable',
