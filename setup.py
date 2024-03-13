@@ -25,9 +25,11 @@ if __name__ == '__main__':
             'Programming Language :: Python :: 3.9',
         ],
         license='Apache License 2.0',
-        # install_requires=parse_requirements('requirements/runtime.txt'),
+        install_requires=[
+            'timm==0.4.12',
+        ]
         # extras_require={
-        #     'all': parse_requirements('requirements.txt'),
+        #     'eth_xgaze': parse_requirements('requirements.txt'),
         #     'tests': parse_requirements('requirements/tests.txt'),
         #     'build': parse_requirements('requirements/build.txt'),
         #     'optional': parse_requirements('requirements/optional.txt'),
